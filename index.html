@@ -3,69 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <title>An Evening of Style – Charles' Birthday</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: linear-gradient(to bottom right, #014421, #bfae60);
+      background-color: #0b3d2e;
       font-family: 'Playfair Display', serif;
-      color: #fff;
-      text-align: center;
+      color: #f5f5dc;
     }
     .container {
-      max-width: 700px;
-      margin: 50px auto;
-      background-color: rgba(0, 0, 0, 0.6);
+      max-width: 650px;
+      margin: 40px auto;
+      background-color: #1a472a;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
       padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+      text-align: center;
     }
     h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 48px;
+      font-size: 32px;
       color: gold;
       margin-bottom: 10px;
     }
-    .details {
+    p {
       font-size: 18px;
       line-height: 1.6;
+      margin: 10px 0;
     }
     .highlight {
-      color: #bfae60;
+      color: gold;
       font-weight: bold;
     }
-    img {
+    .drink-image {
       width: 100%;
-      max-height: 300px;
-      object-fit: cover;
       border-radius: 10px;
-      margin-bottom: 20px;
-      box-shadow: 0 0 15px gold;
+      margin: 20px 0;
+    }
+    .logo {
+      width: 180px;
+      margin: 20px auto;
+    }
+    .rsvp-button a {
+      display: inline-block;
+      background-color: gold;
+      color: #0b3d2e;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+    .rsvp-button a:hover {
+      background-color: #e6c200;
+    }
+    @media (max-width: 640px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 26px;
+      }
+      p {
+        font-size: 16px;
+      }
+      .rsvp-button a {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="https://cdn.pixabay.com/photo/2017/03/27/13/54/drinks-2178888_1280.jpg" alt="Elegant Cocktail Drink">
     <h1>An Evening of Style</h1>
-    <div class="details">
-      You are cordially invited to celebrate<br>
-      <span class="highlight">Charles’ Birthday</span><br><br>
-
-      📅 <strong>Date:</strong> Sunday, September 28th, 2025<br>
-      🕖 <strong>Time:</strong> 7:00 PM<br>
-      📍 <strong>Location:</strong> Our House<br>
-      <em>Please RSVP for the address</em><br><br>
-
-      🎶 Live Band | 🍸 Open Bar with Top-Shelf Liquor<br>
-      🍽️ Soul Food Catering by <span class="highlight">DeliciousyummyShame</span><br><br>
-
-      🧥 Indoor/Outdoor Party – A light jacket may be needed<br>
-      🚫 Guests must be <strong>21 or older</strong><br><br>
-
-      🎁 Your gift to Charles: Your presence and a readiness to have a great time!
+    <p>You're invited to celebrate <span class="highlight">Charles' Birthday</span> in true elegance.</p>
+    <img src="YOUR_DRINK_IMAGE_URL_HERE" alt="Upscale Cocktail" class="drink-image">
+    <p><strong>Date:</strong> Sunday, September 28th, 2025</p>
+    <p><strong>Time:</strong> 7:00 PM</p>
+    <p><strong>Location:</strong> Our House</p>
+    <p>Please RSVP with how many guests for the address.</p>
+    <div class="rsvp-button">
+      <a href="sms:+14042025731?body=RSVP for Charles' Party">RSVP via Text</a>
     </div>
+    <p><strong>Live Band 🎶</strong></p>
+    <p><strong>Open Bar 🍸</strong> featuring top-quality liquor</p>
+    <p><strong>Soul Food</strong> catered by <a href="https://www.deliciousyummyshame.com/" target="_blank" style="color: gold; text-decoration: underline;">DeliciousyummyShame</a></p>
+    <img src="YOUR_LOGO_IMAGE_URL_HERE" alt="DeliciousyummyShame Logo" class="logo">
+    <p><strong>Guests must be 21 or older.</strong></p>
+    <p>Your gift to us will be your presence and your readiness to have a great time!</p>
   </div>
 </body>
 </html>
+
